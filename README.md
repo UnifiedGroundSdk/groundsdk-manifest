@@ -1,7 +1,5 @@
 # Ground SDK
 
-This is the global manifest for Parrot Ground SDK.
-
 This fork contains native and Android support for the following Parrot drones:
 
 * Mambo w/Minicam (Wi-Fi only)
