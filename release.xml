@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/Parrot-Developers" name="parrot"/>
-  <remote fetch="https://github.com/synman" name="synman"
+  <remote fetch="https://github.com/synman" name="synman"/>
   
   <default remote="parrot" revision="master" sync-j="4"/>
   
