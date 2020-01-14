@@ -27,6 +27,10 @@ SkyController V1 Developer Reference: https://developer.parrot.com/docs/SDK3/Sky
 #### GroundSdk
 GroundSdk Reference: https://developer.parrot.com/docs/refdoc-android/index.html <br/>
 FlightPlan (MAVLINK) Reference: https://developer.parrot.com/docs/mavlink-flightplan/ <br/>
+Install & Build GroundSdk: https://developer.parrot.com/docs/groundsdk-android/buildgroundsdk.html <br/>
+
+#### Sphinx
+Sphinx Guidebook:  https://developer.parrot.com/docs/sphinx/ <br/>
 
 ### Licensing Note
 Apache Commons Net (https://commons.apache.org/proper/commons-net/), specifically its FTP client, has been localized within this project for ease of integration.  Please see the Apache License here for further details:  http://www.apache.org/licenses/
