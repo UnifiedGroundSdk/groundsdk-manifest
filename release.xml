@@ -17,7 +17,7 @@
   <project name="ffmpeg" path="packages/common/ffmpeg" revision="6591f3c0b48021f186e142cefc9f2685f7a1d851"/>
   <project name="groundsdk-android" path="packages/groundsdk-android" remote="synman" revision="79aad59b29737d33cdf28b0f200b9ffc6b0b2bc8"/>
   <project name="groundsdk-ios" path="packages/groundsdk-ios" revision="d55a1e9f418fa342cee81ae0f968a150c2be376b"/>
-  <project name="groundsdk-product" path="products/groundsdk" remote="synman "revision="a687db0dc64d9c9b0b227668fd5169c5b2862a6a">
+  <project name="groundsdk-product" path="products/groundsdk" remote="synman" revision="a687db0dc64d9c9b0b227668fd5169c5b2862a6a">
     <linkfile dest="groundsdk-android" src="android/gradle"/>
     <linkfile dest="groundsdk-ios" src="ios/xcode"/>
   </project>
