@@ -15,8 +15,18 @@ And controllers:
 * SkyController V2
 * SkyController V3
 
-For a complete overview and documentation, please visit [Parrot for developers](https://developer.parrot.com).
+### Helpful Links
 
+#### Arsdk (Legacy) 
+All: https://developer.parrot.com/docs/reference/all/index.html <br/>
+Bebop: https://developer.parrot.com/docs/reference/bebop/index.html <br/>
+SkyController: https://developer.parrot.com/docs/reference/skycontroller/index.html <br/>
+
+SkyController V1 Developer Reference: https://developer.parrot.com/docs/SDK3/SkyControllerDev.pdf <br/>
+
+#### GroundSdk
+GroundSdk Reference: https://developer.parrot.com/docs/refdoc-android/index.html <br/>
+FlightPlan (MAVLINK) Reference: https://developer.parrot.com/docs/mavlink-flightplan/ <br/>
 
 ### Licensing Note
 Apache Commons Net (https://commons.apache.org/proper/commons-net/), specifically its FTP client, has been localized within this project for ease of integration.  Please see the Apache License here for further details:  http://www.apache.org/licenses/
