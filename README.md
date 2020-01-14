@@ -17,3 +17,8 @@ And controllers:
 
 For a complete overview and documentation, please visit [Parrot for developers](https://developer.parrot.com).
 
+
+### Licensing Note
+Apache Commons Net (https://commons.apache.org/proper/commons-net/), specifically its FTP client, has been localized within this project for ease of integration.  Please see the Apache License here for further details:  http://www.apache.org/licenses/
+
+All other grants / licenses provided by 3rd parties, particularly Parrot SA, are to be honored.
