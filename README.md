@@ -16,7 +16,7 @@ And controllers:
 * SkyController V3
 
 ### Support / Questions
-This is NOT a Parrot supported project.  Please do not expect or request Parrot, or any of its affiliates, to engage around support questions for code / functionality coming out of this fork.  Feel free to open a Github issue for any items requiring attention within their appropriate repos.  
+This is NOT a Parrot supported project.  Please do not expect or request Parrot, or any of its affiliates, to engage around support questions for code / functionality coming out of this fork.  Feel free to open a Github issue for any items requiring attention within their appropriate (forked) repos on Github.
 
 #### arsdk-ng
 This repo houses the core native code shared across the GroundSdk framework.  It has been forked [here](https://github.com/synman/arsdk-ng).  Changes to it to support the unified framework are within the main device connection phase to ensure "legacy" attributes such as the RTP (arstream2) control and data ports are being provided to those devices.
