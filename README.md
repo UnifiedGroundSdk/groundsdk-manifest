@@ -15,8 +15,25 @@ And controllers:
 * SkyController V2
 * SkyController V3
 
-### Helpful Links
+### Support / Questions
+This is NOT a Parrot supported project.  Please do not expect or request Parrot, or any of its affiliates, to engage around support questions for code / functionality coming out of this fork.  Feel free to open a Github issue for any items requiring attention within their appropriate repos.  
 
+#### arsdk-ng
+This repo houses the core native code shared across the GroundSdk framework.  It has been forked [here](https://github.com/synman/arsdk-ng).  Changes to it to support the unified framework are within the main device connection phase to ensure "legacy" attributes such as the RTP (arstream2) control and data ports are being provided to those devices.
+
+#### groundsdk-android
+This repo houses the bulk of all changes (to date) to GroundSdk to expose Android support for the Mambo (Miniature), Bebop, and Disco drones.  It has been forked [here](https://github.com/synman/groundsdk-android).  All device, instrument, peripheral, and customizations are within this repo.
+
+#### groundsdk-product
+This repo houses the build configuration details for the entire GroundSdk framework (product).  It has been forked [here](https://github.com/synman/groundsdk-product).  A change to this repo is required for enabling builds of the libMavlink library which is required for the generation of Mavlink (Flightplan) files.
+
+#### librtsp
+This repo houses the protocol definitions and instructions for supporting the RTSP protocol.  It has been forked [here](https://github.com/synman/librtsp).  A single change has been made to this library to bypass processing of the RTSP DATE header.   This was necessary because the Mambo drone's RTSP server does not set its DATE header in a standard ISO format.  Since the value of this header is not used downstream, I chose to simply bypass processing it.
+
+#### libMavlink
+This repo houses the Mavlink semantics (Mission / MissionItem) for generating a Mavlink file.  It has been forked [here](https://github.com/synman/libMavlink).  A (use specific) change was made to this library to enable the persistence of Param3 values between the native and java layers when copying MissionItems.  
+
+### Helpful Links
 #### Arsdk (Legacy) 
 All: https://developer.parrot.com/docs/reference/all/index.html <br/>
 Bebop: https://developer.parrot.com/docs/reference/bebop/index.html <br/>
