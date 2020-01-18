@@ -1,4 +1,6 @@
-# Ground SDK
+# Unified GroundSdk
+
+![Unified GroundSdk](https://user-images.githubusercontent.com/1299716/72654391-7c65a780-395d-11ea-870d-303f2e525234.png)
 
 This fork contains native and Android support for the following Parrot drones:
 
@@ -49,6 +51,16 @@ Install & Build GroundSdk: https://developer.parrot.com/docs/groundsdk-android/b
 #### Sphinx
 Sphinx Guidebook:  https://developer.parrot.com/docs/sphinx/ <br/>
 
+### How to Build
+Follow Parrot's documentation for installing and building GroundSdk and at the _**repo init**_ step, replace the Parrot groundsdk-manifest repo reference with this one, like so:
+
+![Replace the Parrot Developers groundsdk-manifest repo reference](https://user-images.githubusercontent.com/1299716/72654400-81c2f200-395d-11ea-870d-476d0345fb79.png)
+
+becomes:
+```
+repo init -u https://github.com/synman/groundsdk-manifest
+```
+
 ### What's Broke?
 First off it is important to note that not all functionality has been tested on all devices at this time.  It is quite a bit for one person to juggle during the Winter months but I would estimate at this point the project overall is about 90% stable.  I have spent a considerable amount of time with my Anafi and Bebop2 drones powered up in my livingroom plus even more time with a VM based instance of Sphinx running.
 
@@ -57,7 +69,8 @@ You don't know what you don't know and it applies here.  What I do know is:
 * Gamepad mappings for the SC1 are not yet implemented
 * Gamepad mappings for the SC2 are incomplete / mapped incorrectly
 * Mini mappings for the Flypad are not yet implemented (I may never implement them)
-* Mambo signal RSSI is reported based on Android signal strength.  The Mambo will, never provide this data even though it should.  This is a Drone firmware bug that I have worked around.
+* Mambo signal RSSI is reported based on Android signal strength.  The Mambo will never provide this data as this is a drone firmware bug that I have worked around.
+* Mambo will never transition from the hovering to flying state.  This is a drone firmware bug that never got fixed.
 * Bebop / Disco Timelapse is broken.  I have some ideas for working around this but, similar to Mambo RSSI, this is broken within the drone firmware and will never be fixed by Parrot.
 * There are likely lots of functional holes for the Bebop V1 that will never get filled due to it missing the Animation and Follow Me feature sets.  Perhaps I'll emulate this within GroundSdk at some point.  See how I have the Mambo reporting GPS coordinates even though it doesn't have a GPS to get an idea of what is possible.
 
