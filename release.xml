@@ -7,7 +7,7 @@
 
   <project name="Alchemy" path="build/alchemy" revision="cd64d4480ecf48be74f6af3fdfc38d4d4bf4b850"/>
   <project name="apps_tools" path="build/apps_tools" revision="4d64be9ed2136dc3b037f2821ab635d91192f6f5"/>
-  <project name="arsdk-ng" path="packages/common/arsdk-ng" remote="synman" revision="1b723cb0a4d612fff332fef220d62eefd7d0cc6e"/>
+  <project name="arsdk-ng" path="packages/common/arsdk-ng" remote="synman" revision="c2c7710aaee8bfb87d2e5b2aaae0f66df4c6cf45"/>
   <project name="arsdk-xml" path="packages/common/arsdk-xml" revision="2a4b760e6dc288f975a46f25a9940777fabb390c"/>
   <project name="ctypeslib" path="packages/common/ctypeslib" revision="1147d4bbd2e1b2c983a6313b7f5828d36ce458cf"/>
   <project name="dragon_build" path="build/dragon_build" revision="ad83ff7ed8c8f459a79eff0af0688e4843bd9702">
@@ -15,9 +15,9 @@
   </project>
   <project name="eigen" path="packages/common/eigen" revision="a92adeca75520f3b84ef844b72b4591749800652"/>
   <project name="ffmpeg" path="packages/common/ffmpeg" revision="6591f3c0b48021f186e142cefc9f2685f7a1d851"/>
-  <project name="groundsdk-android" path="packages/groundsdk-android" remote="synman" revision="ecb5bfaaef704ff605e229557adcc0ab8181fa7e"/>
+  <project name="groundsdk-android" path="packages/groundsdk-android" remote="synman" revision="1b74d45a1cc3a86f9a1db591e2025e065f10eab7"/>
   <project name="groundsdk-ios" path="packages/groundsdk-ios" revision="7a372119ef0b1bc8ace8ac249a304f2697024b94"/>
-  <project name="groundsdk-product" path="products/groundsdk" remote="synman" revision="a15dac542dc07d6e1a8b5165abf2e8ab5f2c8d44">
+  <project name="groundsdk-product" path="products/groundsdk" remote="synman" revision="9a3a873c5e4c3ae24b70fc875fad75a7c8df98ca">
     <linkfile dest="groundsdk-android" src="android/gradle"/>
     <linkfile dest="groundsdk-ios" src="ios/xcode"/>
   </project>
