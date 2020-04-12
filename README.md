@@ -23,6 +23,9 @@ This is NOT a Parrot supported project.  Please do not expect or request Parrot,
 #### arsdk-ng
 This repo houses the core native code shared across the GroundSdk framework.  It has been forked [here](https://github.com/synman/arsdk-ng).  Changes to it to support the unified framework are within the main device connection phase to ensure "legacy" attributes such as the RTP (arstream2) control and data ports are being provided to those devices.
 
+#### arsdk-xml
+This repo houses the xml representation of all ARSDK commands.  All Arsdk Feature classes and commands and events are generated from this package.  It has been forked [here](https://github.com/synman/arsdk-xml).  Changes to it to support the unified framework are re-exposing legacy commands such as Flat Trim.
+
 #### groundsdk-android
 This repo houses the bulk of all changes (to date) to GroundSdk to expose Android support for the Mambo (Miniature), Bebop, and Disco drones.  It has been forked [here](https://github.com/synman/groundsdk-android).  All device, instrument, peripheral, and customizations are within this repo.
 
