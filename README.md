@@ -30,12 +30,12 @@ This repo houses the xml representation of all ARSDK commands.  All Arsdk Featur
 This repo houses the bulk of all changes (to date) to GroundSdk to expose Android support for the Mambo (Miniature), Bebop, and Disco drones.  It has been forked [here](https://github.com/UnifiedGroundSdk/groundsdk-android).  All device, instrument, peripheral, and customizations are within this repo.
 
 #### groundsdk-product
-This repo houses the build configuration details for the entire GroundSdk framework (product).  It has been forked [here](https://github.com/UnifiedGroundSdk/groundsdk-product).  A change to this repo is required for enabling builds of the libMavlink library which is required for the generation of Mavlink (Flightplan) files.
+This repo houses the build configuration details for the entire GroundSdk framework (product).  It has been forked [here](https://github.com/UnifiedGroundSdk/groundsdk-product).  ~~A change to this repo is required for enabling builds of the libMavlink library which is required for the generation of Mavlink (Flightplan) files.~~  A change to this repo is required to provide the x86 ABI build type.
 
 #### librtsp
 This repo houses the protocol definitions and instructions for supporting the RTSP protocol.  It has been forked [here](https://github.com/UnifiedGroundSdk/librtsp).  A single change has been made to this library to bypass processing of the RTSP DATE header.   This was necessary because the Mambo drone's RTSP server does not set its DATE header in a standard ISO format.  Since the value of this header is not used downstream, I chose to simply bypass processing it.
 
-#### libMavlink
+#### libMavlink -- OBSOLETE -- No longer a dependency
 This repo houses the Mavlink semantics (Mission / MissionItem) for generating a Mavlink file.  It has been forked [here](https://github.com/UnifiedGroundSdk/libMavlink).  A (use specific) change was made to this library to enable the persistence of Param3 values between the native and java layers when copying MissionItems.  
 
 ### Helpful Links
