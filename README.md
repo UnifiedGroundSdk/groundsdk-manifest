@@ -70,8 +70,8 @@ First off it is important to note that not all functionality has been tested on 
 
 You don't know what you don't know and it applies here.  What I do know is:
 
-* Gamepad mappings for the SC1 are not yet implemented
-* Gamepad mappings for the SC2 are incomplete / mapped incorrectly
+* Gamepad mappings for the SC1 are not yet fully implemented
+* ~~Gamepad mappings for the SC2 are incomplete / mapped incorrectly~~
 * Mini mappings for the Flypad are not yet implemented (I may never implement them)
 * Mambo signal RSSI is reported based on Android signal strength.  The Mambo will never provide this data as this is a drone firmware bug that I have worked around.
 * Mambo will never transition from the hovering to flying state.  This is a drone firmware bug that never got fixed.
