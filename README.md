@@ -8,6 +8,7 @@ This fork contains native and Android support for the following Parrot drones:
 * Bebop V1
 * Bebop V2
 * Disco
+* Bluegrass
 * Anafi 4K
 * Anafi 4K Thermal
 
