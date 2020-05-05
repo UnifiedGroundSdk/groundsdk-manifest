@@ -1,6 +1,6 @@
 # Unified GroundSdk
 
-![Unified GroundSdk](https://user-images.githubusercontent.com/1299716/72654391-7c65a780-395d-11ea-870d-303f2e525234.png)
+![Unified GroundSdk](https://user-images.githubusercontent.com/1299716/81030758-f2801280-8e57-11ea-989d-07e364ca5d90.png)
 
 This fork contains native and Android support for the following Parrot drones:
 
