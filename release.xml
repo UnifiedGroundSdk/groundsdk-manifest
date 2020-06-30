@@ -7,22 +7,22 @@
 
   <project name="Alchemy" path="build/alchemy" revision="cd64d4480ecf48be74f6af3fdfc38d4d4bf4b850"/>
   <project name="apps_tools" path="build/apps_tools" revision="4d64be9ed2136dc3b037f2821ab635d91192f6f5"/>
-  <project name="arsdk-ng" path="packages/common/arsdk-ng" remote="unified" revision="c2c7710aaee8bfb87d2e5b2aaae0f66df4c6cf45"/>
-  <project name="arsdk-xml" path="packages/common/arsdk-xml" remote="unified" revision="a1e8ccf17da0be63f622e09285fba6e532f32fee"/>
+  <project name="arsdk-ng" path="packages/common/arsdk-ng" remote="unified" revision="8f0a00c2f60b859ea08d90755fdbd8f8de1eaeb3"/>
+  <project name="arsdk-xml" path="packages/common/arsdk-xml" remote="unified" revision="3a0ed5d50c3d4cf0772fbb31d4328d600e06e79e"/>
   <project name="ctypeslib" path="packages/common/ctypeslib" revision="1147d4bbd2e1b2c983a6313b7f5828d36ce458cf"/>
   <project name="dragon_build" path="build/dragon_build" revision="165660b6e59f1c2d1ca904f41c21b513a2bcd95d">
     <linkfile dest="build.sh" src="root-build.sh"/>
   </project>
   <project name="eigen" path="packages/common/eigen" revision="a92adeca75520f3b84ef844b72b4591749800652"/>
   <project name="ffmpeg" path="packages/common/ffmpeg" revision="6591f3c0b48021f186e142cefc9f2685f7a1d851"/>
-  <project name="groundsdk-android" path="packages/groundsdk-android" remote="unified" revision="75556f46571ced6712f32c15c1e5b86c2f836de8"/>
+  <project name="groundsdk-android" path="packages/groundsdk-android" remote="unified" revision="cf2846f2b246d97e646d7886020d947164a35c50"/>
   <project name="groundsdk-ios" path="packages/groundsdk-ios" revision="68c5956dc7c36340d11b783cda996a5872ef2aab"/>
-  <project name="groundsdk-product" path="products/groundsdk" remote="unified" revision="728334fa7724ae9713d36a165a342169450afe19">
+  <project name="groundsdk-product" path="products/groundsdk" remote="unified" revision="9e89658bda634bf2ea3d778a1ab11524fc99d987">
     <linkfile dest="groundsdk-android" src="android/gradle"/>
     <linkfile dest="groundsdk-ios" src="ios/xcode"/>
   </project>
   <project name="json-c" path="packages/common/json" revision="e086ad4319f511746dc2230e420ff47a0df1e586"/>
-  <project name="libARMavlink" path="packages/common/libARMavlink" remote="unified" revision="26e09a88e7b153f7018b6c165271bac8d80198fc"/>
+  <project name="libARMavlink" path="packages/common/libARMavlink" revision="41f616dd66982445eca6ffad326da83a4666f9ff"/>
   <project name="libfutils" path="packages/common/libfutils" revision="21d4af590dcbadc4573147a5e0da80e910b6cf63"/>
   <project name="libh264" path="packages/common/libh264" revision="1f8f14b645a569304951270d19c7c4a24629c9a8"/>
   <project name="libmediacodec-wrapper" path="packages/common/libmediacodec-wrapper" revision="4146384997d8cd1c24f11d079e3651352ad7d57e"/>
