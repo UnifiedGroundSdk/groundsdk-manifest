@@ -16,7 +16,7 @@
   <project name="eigen" path="packages/common/eigen" revision="a92adeca75520f3b84ef844b72b4591749800652"/>
   <project name="ffmpeg" path="packages/common/ffmpeg" revision="6591f3c0b48021f186e142cefc9f2685f7a1d851"/>
   <project name="groundsdk-android" path="packages/groundsdk-android" remote="unified" revision="75556f46571ced6712f32c15c1e5b86c2f836de8"/>
-  <project name="groundsdk-ios" path="packages/groundsdk-ios" revision="7a372119ef0b1bc8ace8ac249a304f2697024b94"/>
+  <project name="groundsdk-ios" path="packages/groundsdk-ios" revision="68c5956dc7c36340d11b783cda996a5872ef2aab"/>
   <project name="groundsdk-product" path="products/groundsdk" remote="unified" revision="728334fa7724ae9713d36a165a342169450afe19">
     <linkfile dest="groundsdk-android" src="android/gradle"/>
     <linkfile dest="groundsdk-ios" src="ios/xcode"/>
@@ -38,14 +38,14 @@
   <project name="libvideo-decode" path="packages/common/libvideo-decode" revision="bd672b81b801f4f7569d7485fe2868bbbdb31895"/>
   <project name="libvideo-metadata" path="packages/common/libvideo-metadata" revision="91e3e0c15763d31368b497ead5b665b80e38b659"/>
   <project name="libvideo-streaming" path="packages/common/libvideo-streaming" revision="748d3d17cf05512f86254f9a7be1373a65afb958"/>
-  <project name="logger" path="packages/common/logger" revision="9f5f66b1ad8637759721885726042442555b79a5"/>
+  <project name="logger" path="packages/common/logger" revision="250b8e83f2c93434d6f613f1000a6ae9891aa567"/>
   <project name="lz4" path="packages/common/lz4" revision="1114967101628f3a6995d56a7aa0881f90d5135c"/>
   <project name="mavlink" path="packages/common/mavlink" revision="ed9b5620b539729d0fd3cf1187e1d66047cbb574"/>
-  <project name="olympe" path="packages/olympe" revision="f0adc9274d5052efa6586a288379439bdb0a13e9"/>
+  <project name="olympe" path="packages/olympe" revision="c4883c3fd9164e40ed10df556fa1b0037f06cbd7"/>
   <project name="olympe-deps" path="packages/common/olympe-deps" revision="24b5fa603cdabf62576cdd511a502f418f32fb29"/>
   <project name="olympe-product" path="products/olympe" revision="3c57620547ea2a388bd4594986f0c04cbc9b00ad"/>
   <project name="pdraw" path="packages/pdraw" revision="75757183c7f4dfc0bf8886e17a94b4599550b8de"/>
   <project name="pdraw-product" path="products/pdraw" revision="e1ec45bf7080409db92bf671d723049080577f6f"/>
-  <project name="python-native" path="packages/common/python-native" revision="c7fc068b8421f8707ff414da04742830af3bc90c"/>
+  <project name="python-native" path="packages/common/python-native" revision="ef10a5abb9c4f66bf1fdf472ced4a4965cd569c1"/>
   <project name="ulog" path="packages/common/ulog" revision="827f6fd11ad41abf49ef9e1228110265ccc2a8ab"/>
 </manifest>
