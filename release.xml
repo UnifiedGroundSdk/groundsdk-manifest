@@ -5,7 +5,7 @@
 
   <default remote="unified" revision="master" sync-j="4"/>
 
-  <project name="Alchemy" path="build/alchemy" revision="cd64d4480ecf48be74f6af3fdfc38d4d4bf4b850"/>
+  <project name="Alchemy" path="build/alchemy" revision="38285cf7aa52ea86d84a5d389fe1a5e56c6395bf"/>
   <project name="apps_tools" path="build/apps_tools" revision="4d64be9ed2136dc3b037f2821ab635d91192f6f5"/>
   <project name="arsdk-ng" path="packages/common/arsdk-ng" remote="unified" revision="8f0a00c2f60b859ea08d90755fdbd8f8de1eaeb3"/>
   <project name="arsdk-xml" path="packages/common/arsdk-xml" remote="unified" revision="3a0ed5d50c3d4cf0772fbb31d4328d600e06e79e"/>
@@ -15,8 +15,8 @@
   </project>
   <project name="eigen" path="packages/common/eigen" revision="a92adeca75520f3b84ef844b72b4591749800652"/>
   <project name="ffmpeg" path="packages/common/ffmpeg" revision="6591f3c0b48021f186e142cefc9f2685f7a1d851"/>
-  <project name="groundsdk-android" path="packages/groundsdk-android" remote="unified" revision="d232ab1910009d84091929f72dc41490c31a3958"/>
-  <project name="groundsdk-product" path="products/groundsdk" remote="unified" revision="9e89658bda634bf2ea3d778a1ab11524fc99d987">
+  <project name="groundsdk-android" path="packages/groundsdk-android" remote="unified" revision="75b7a6832c4c8df75291a9745087cbb3ec0c4eb5"/>
+  <project name="groundsdk-product" path="products/groundsdk" remote="unified" revision="b0381c5a5675038df1137f414fc5425304b560b3">
     <linkfile dest="groundsdk-android" src="android/gradle"/>
   </project>
   <project name="json-c" path="packages/common/json" revision="e086ad4319f511746dc2230e420ff47a0df1e586"/>
@@ -31,7 +31,7 @@
   <project name="librtp" path="packages/common/librtp" revision="bf391071f75243290341b506282675fe09eae18a"/>
   <project name="librtsp" path="packages/common/librtsp" remote="unified" revision="7211d79423d967652d7726fcb4e0ad91404fb062"/>
   <project name="libsdp" path="packages/common/libsdp" revision="2a294af9e1bcbdc58b0917d580cb583614b6cbfd"/>
-  <project name="libtar" path="packages/common/libtar" revision="da7b886f0af9742653a176006c782af75f2164dd"/>
+  <project name="libtar" path="packages/common/libtar" revision="da5da3a3d867728b9db98f54ea5abf8dc55ee41f"/>
   <project name="libvideo-buffers" path="packages/common/libvideo-buffers" revision="aa20044772c5bcc4ccacc50944144c2393917498"/>
   <project name="libvideo-decode" path="packages/common/libvideo-decode" revision="bd672b81b801f4f7569d7485fe2868bbbdb31895"/>
   <project name="libvideo-metadata" path="packages/common/libvideo-metadata" revision="91e3e0c15763d31368b497ead5b665b80e38b659"/>
