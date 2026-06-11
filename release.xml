@@ -8,14 +8,14 @@
   <project name="Alchemy" path="build/alchemy" revision="38285cf7aa52ea86d84a5d389fe1a5e56c6395bf"/>
   <project name="apps_tools" path="build/apps_tools" revision="4d64be9ed2136dc3b037f2821ab635d91192f6f5"/>
   <project name="arsdk-ng" path="packages/common/arsdk-ng" remote="unified" revision="8f0a00c2f60b859ea08d90755fdbd8f8de1eaeb3"/>
-  <project name="arsdk-xml" path="packages/common/arsdk-xml" remote="unified" revision="3a0ed5d50c3d4cf0772fbb31d4328d600e06e79e"/>
+  <project name="arsdk-xml" path="packages/common/arsdk-xml" remote="unified" revision="8d50b3e2cb997e8e750cd9928eab469b2b57b3ee"/>
   <project name="ctypeslib" path="packages/common/ctypeslib" revision="1147d4bbd2e1b2c983a6313b7f5828d36ce458cf"/>
   <project name="dragon_build" path="build/dragon_build" revision="165660b6e59f1c2d1ca904f41c21b513a2bcd95d">
     <linkfile dest="build.sh" src="root-build.sh"/>
   </project>
   <project name="eigen" path="packages/common/eigen" revision="a92adeca75520f3b84ef844b72b4591749800652"/>
   <project name="ffmpeg" path="packages/common/ffmpeg" revision="6591f3c0b48021f186e142cefc9f2685f7a1d851"/>
-  <project name="groundsdk-android" path="packages/groundsdk-android" remote="unified" revision="ce0a4b71c45367624243d154ce9cce9fc3d15a14"/>
+  <project name="groundsdk-android" path="packages/groundsdk-android" remote="unified" revision="42bb9b739c115b9b70b8134af9a883ff80952f6f"/>
   <project name="groundsdk-product" path="products/groundsdk" remote="unified" revision="b0381c5a5675038df1137f414fc5425304b560b3">
     <linkfile dest="groundsdk-android" src="android/gradle"/>
   </project>
