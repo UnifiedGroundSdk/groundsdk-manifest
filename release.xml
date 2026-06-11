@@ -15,7 +15,7 @@
   </project>
   <project name="eigen" path="packages/common/eigen" revision="a92adeca75520f3b84ef844b72b4591749800652"/>
   <project name="ffmpeg" path="packages/common/ffmpeg" revision="6591f3c0b48021f186e142cefc9f2685f7a1d851"/>
-  <project name="groundsdk-android" path="packages/groundsdk-android" remote="unified" revision="75b7a6832c4c8df75291a9745087cbb3ec0c4eb5"/>
+  <project name="groundsdk-android" path="packages/groundsdk-android" remote="unified" revision="ce0a4b71c45367624243d154ce9cce9fc3d15a14"/>
   <project name="groundsdk-product" path="products/groundsdk" remote="unified" revision="b0381c5a5675038df1137f414fc5425304b560b3">
     <linkfile dest="groundsdk-android" src="android/gradle"/>
   </project>
