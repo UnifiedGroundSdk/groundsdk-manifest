@@ -3,7 +3,7 @@
   <remote fetch="https://github.com/Parrot-Developers" name="parrot"/>
   <remote fetch="https://github.com/UnifiedGroundSdk" name="unified"/>
 
-  <default remote="parrot" revision="master" sync-j="4"/>
+  <default remote="unified" revision="master" sync-j="4"/>
 
   <project name="Alchemy" path="build/alchemy" revision="cd64d4480ecf48be74f6af3fdfc38d4d4bf4b850"/>
   <project name="apps_tools" path="build/apps_tools" revision="4d64be9ed2136dc3b037f2821ab635d91192f6f5"/>
@@ -16,10 +16,8 @@
   <project name="eigen" path="packages/common/eigen" revision="a92adeca75520f3b84ef844b72b4591749800652"/>
   <project name="ffmpeg" path="packages/common/ffmpeg" revision="6591f3c0b48021f186e142cefc9f2685f7a1d851"/>
   <project name="groundsdk-android" path="packages/groundsdk-android" remote="unified" revision="d232ab1910009d84091929f72dc41490c31a3958"/>
-  <project name="groundsdk-ios" path="packages/groundsdk-ios" revision="68c5956dc7c36340d11b783cda996a5872ef2aab"/>
   <project name="groundsdk-product" path="products/groundsdk" remote="unified" revision="9e89658bda634bf2ea3d778a1ab11524fc99d987">
     <linkfile dest="groundsdk-android" src="android/gradle"/>
-    <linkfile dest="groundsdk-ios" src="ios/xcode"/>
   </project>
   <project name="json-c" path="packages/common/json" revision="e086ad4319f511746dc2230e420ff47a0df1e586"/>
   <project name="libARMavlink" path="packages/common/libARMavlink" revision="41f616dd66982445eca6ffad326da83a4666f9ff"/>
