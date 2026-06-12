@@ -15,7 +15,7 @@
   </project>
   <project name="eigen" path="packages/common/eigen" revision="a92adeca75520f3b84ef844b72b4591749800652"/>
   <project name="ffmpeg" path="packages/common/ffmpeg" revision="6591f3c0b48021f186e142cefc9f2685f7a1d851"/>
-  <project name="groundsdk-android" path="packages/groundsdk-android" remote="unified" revision="c83fe8cbcac5c5a7884f0988f17d6374ce724d56"/>
+  <project name="groundsdk-android" path="packages/groundsdk-android" remote="unified" revision="2600f84aafc1a4fb41c4b3ce9ebb690cb07aa8da"/>
   <project name="groundsdk-product" path="products/groundsdk" remote="unified" revision="b0381c5a5675038df1137f414fc5425304b560b3">
     <linkfile dest="groundsdk-android" src="android/gradle"/>
   </project>
@@ -39,7 +39,7 @@
   <project name="logger" path="packages/common/logger" revision="250b8e83f2c93434d6f613f1000a6ae9891aa567"/>
   <project name="lz4" path="packages/common/lz4" revision="1114967101628f3a6995d56a7aa0881f90d5135c"/>
   <project name="mavlink" path="packages/common/mavlink" revision="ed9b5620b539729d0fd3cf1187e1d66047cbb574"/>
-  <project name="olympe" path="packages/olympe" revision="c4883c3fd9164e40ed10df556fa1b0037f06cbd7"/>
+  <project name="olympe" path="packages/olympe" revision="0762ba8519f76370791203974df0eb66cc249428"/>
   <project name="olympe-deps" path="packages/common/olympe-deps" revision="24b5fa603cdabf62576cdd511a502f418f32fb29"/>
   <project name="olympe-product" path="products/olympe" revision="3c57620547ea2a388bd4594986f0c04cbc9b00ad"/>
   <project name="pdraw" path="packages/pdraw" revision="75757183c7f4dfc0bf8886e17a94b4599550b8de"/>
