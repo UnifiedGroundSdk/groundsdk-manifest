@@ -7,7 +7,7 @@
 
   <project name="Alchemy" path="build/alchemy" revision="38285cf7aa52ea86d84a5d389fe1a5e56c6395bf"/>
   <project name="apps_tools" path="build/apps_tools" revision="4d64be9ed2136dc3b037f2821ab635d91192f6f5"/>
-  <project name="arsdk-ng" path="packages/common/arsdk-ng" remote="unified" revision="8f0a00c2f60b859ea08d90755fdbd8f8de1eaeb3"/>
+  <project name="arsdk-ng" path="packages/common/arsdk-ng" remote="unified" revision="5ea752fab93762bfc399f2f5e366883c44f846f3"/>
   <project name="arsdk-xml" path="packages/common/arsdk-xml" remote="unified" revision="8d50b3e2cb997e8e750cd9928eab469b2b57b3ee"/>
   <project name="ctypeslib" path="packages/common/ctypeslib" revision="1147d4bbd2e1b2c983a6313b7f5828d36ce458cf"/>
   <project name="dragon_build" path="build/dragon_build" revision="165660b6e59f1c2d1ca904f41c21b513a2bcd95d">
@@ -15,7 +15,7 @@
   </project>
   <project name="eigen" path="packages/common/eigen" revision="a92adeca75520f3b84ef844b72b4591749800652"/>
   <project name="ffmpeg" path="packages/common/ffmpeg" revision="6591f3c0b48021f186e142cefc9f2685f7a1d851"/>
-  <project name="groundsdk-android" path="packages/groundsdk-android" remote="unified" revision="504c9dbcdb605cc2e068b62dc84ef6dd22c43677"/>
+  <project name="groundsdk-android" path="packages/groundsdk-android" remote="unified" revision="c83fe8cbcac5c5a7884f0988f17d6374ce724d56"/>
   <project name="groundsdk-product" path="products/groundsdk" remote="unified" revision="b0381c5a5675038df1137f414fc5425304b560b3">
     <linkfile dest="groundsdk-android" src="android/gradle"/>
   </project>
@@ -29,7 +29,7 @@
   <project name="libpomp" path="packages/common/libpomp" revision="8b8de54880d0e433f30fa7c4a1eadfb7de72df32"/>
   <project name="libpuf" path="packages/common/libpuf" revision="a35ed88f49864d337c4077f20ac0a9117c5eef09"/>
   <project name="librtp" path="packages/common/librtp" revision="bf391071f75243290341b506282675fe09eae18a"/>
-  <project name="librtsp" path="packages/common/librtsp" remote="unified" revision="7211d79423d967652d7726fcb4e0ad91404fb062"/>
+  <project name="librtsp" path="packages/common/librtsp" remote="unified" revision="17f95a600fcba68874887c708ad73af367f2da71"/>
   <project name="libsdp" path="packages/common/libsdp" revision="2a294af9e1bcbdc58b0917d580cb583614b6cbfd"/>
   <project name="libtar" path="packages/common/libtar" revision="da5da3a3d867728b9db98f54ea5abf8dc55ee41f"/>
   <project name="libvideo-buffers" path="packages/common/libvideo-buffers" revision="aa20044772c5bcc4ccacc50944144c2393917498"/>
